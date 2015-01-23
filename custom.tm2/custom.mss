@@ -1,5 +1,6 @@
 // Fonts
 @kievit : 'Kievit SC Offc Pro Book';
+@kievit_bold : 'Kievit SC Offc Pro Bold';
 
 #water{
   ::shadow{
@@ -28,8 +29,12 @@
   building-height:4;
 }
 
+//Landuse
 #landuse[class='park'] {
   polygon-fill:#dec;
+}
+#landuse[class='grass'] {
+  polygon-fill:#bfdbad;
 }
 
 #poi_label[maki='park'][scalerank<=3][zoom>=15] {

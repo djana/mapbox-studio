@@ -16,10 +16,12 @@ Map { background-color: @land; }
 
 #admin[admin_level=2][maritime=0] {
   line-join: round;
-  line-color: #bbe;
+  line-color: #94ae9f;
   line-width: 1.4;
-  [zoom>=6] { line-width: 2; }
-  [zoom>=8] { line-width: 4; }
+  line-join:round;
+  line-cap: round;
+  [zoom>=6] { line-width: 1.8; }
+  [zoom>=8] { line-width: 3; }
   [disputed=1] { line-dasharray: 4,4; }
 }
 
@@ -27,8 +29,8 @@ Map { background-color: @land; }
 
 #country_label[zoom>=3] {
   text-name: @name;
-  text-face-name: @sans_bold;
-  text-fill: #66a;
+  text-face-name: @kievit_bold;
+  text-fill: #3e7655;
   text-size: 12;
   [zoom>=3][scalerank=1],
   [zoom>=4][scalerank=2],
@@ -44,12 +46,12 @@ Map { background-color: @land; }
   }
 }
 
-#country_label_line { line-color: fadeout(#66a,75%); }
+#country_label_line { line-color: fadeout(#94ae9f,75%); }
 
 #place_label[localrank<=2] {
   [type='city'][zoom<=15] {
     text-name: @name;
-    text-face-name: @sans_bold;
+    text-face-name: @kievit_bold;
     text-fill: #444;
     text-size: 16;
     [zoom>=10] { text-size: 18; }
@@ -57,7 +59,7 @@ Map { background-color: @land; }
   }
   [type='town'][zoom<=17] {
     text-name: @name;
-    text-face-name: @sans;
+    text-face-name: @kievit;// @sans
     text-fill: #333;
     text-size: 14;
     [zoom>=10] { text-size: 16; }
@@ -65,7 +67,7 @@ Map { background-color: @land; }
   }
   [type='village'] {
     text-name: @name;
-    text-face-name: @sans;
+    text-face-name: @kievit;// @sans
     text-fill: #444;
     text-size: 12;
     [zoom>=12] { text-size: 14; }
@@ -75,7 +77,7 @@ Map { background-color: @land; }
   [type='suburb'],
   [type='neighbourhood'] {
     text-name: @name;
-    text-face-name: @sans;
+    text-face-name: @kievit; // @sans
     text-fill: #666;
     text-size: 12;
     [zoom>=14] { text-size: 14; }
