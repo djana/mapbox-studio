@@ -34,7 +34,7 @@
   polygon-fill:#dec;
 }
 #landuse[class='grass'] {
-  polygon-fill:#bfdbad;
+  polygon-fill:#dec;
 }
 
 #poi_label[maki='park'][scalerank<=3][zoom>=15] {
@@ -59,3 +59,4 @@
   text-halo-radius:1;
   text-halo-rasterizer:fast;
 }
+

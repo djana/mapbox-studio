@@ -5,10 +5,10 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">8.2397,46.3246,10</Parameter>
+  <Parameter name="center">6.3295,46.4639,10</Parameter>
   <Parameter name="format">png8:m=h</Parameter>
   <Parameter name="maxzoom">22</Parameter>
-  <Parameter name="minzoom">0</Parameter>
+  <Parameter name="minzoom">8</Parameter>
   <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v5]]></Parameter>
 </Parameters>
 
@@ -16,7 +16,7 @@
 <Style name="landuse" filter-mode="first">
   <Rule>
     <Filter>([class] = 'grass')</Filter>
-    <PolygonSymbolizer fill="#bfdbad" />
+    <PolygonSymbolizer fill="#ddeecc" />
   </Rule>
   <Rule>
     <Filter>([class] = 'park')</Filter>
@@ -680,30 +680,30 @@
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 500000)</Filter>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>12500</MaxScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([area] &gt; 10000)</Filter>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>50000</MinScaleDenominator>
-    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" ><![CDATA[[name_en]]]></TextSymbolizer>
+    <TextSymbolizer face-name="Source Sans Pro Italic" fill="#2aa6ff" size="13" wrap-width="100" wrap-before="true" halo-fill="#d5f3f6" halo-radius="1" halo-rasterizer="fast" ><![CDATA[[name_en]]]></TextSymbolizer>
   </Rule>
 </Style>
 <Layer name="water_label"

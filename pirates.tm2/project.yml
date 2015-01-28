@@ -1,5 +1,5 @@
 _prefs: 
-  saveCenter: false
+  saveCenter: true
 _properties: 
   bridge: 
     "group-by": layer
@@ -10,18 +10,19 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 6.3295
-  - 46.4639
-  - 10
+  - 3.8232
+  - 49.6676
+  - 5
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 layers: null
 maxzoom: 22
-minzoom: 8
+minzoom: 0
 name: ''
 source: "mapbox:///mapbox.mapbox-streets-v5"
 styles: 
   - style.mss
-  - custom.mss
+  - illustrations.mss
+  - labels.mss
 template: ''

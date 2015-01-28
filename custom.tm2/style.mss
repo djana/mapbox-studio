@@ -103,6 +103,9 @@ Map { background-color: @land; }
     text-size: 13;
     text-wrap-width: 100;
     text-wrap-before: true;
+      text-halo-fill:#d5f3f6;
+  text-halo-radius:1;
+  text-halo-rasterizer:fast;
   }
 }
 
