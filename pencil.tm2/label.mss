@@ -1,6 +1,6 @@
-/*@name: '[name_en]';
+@name: '[name_en]';
 #place_label[type='city'][localrank=1] {
-text-face-name: 'Schulschrift A OT Normal';
+text-face-name: 'Providence SC Offc Pro Regular';//'Schulschrift A OT Normal';
 text-name: @name;
 text-opacity: 0.75;
 text-size: 20;
@@ -60,4 +60,4 @@ text-character-spacing: -2;
 text-placement: line;
 text-transform: uppercase;
 }
-}*/
+}
