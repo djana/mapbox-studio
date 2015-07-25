@@ -60,7 +60,7 @@ text-name: @name_arrr;
 text-face-name: 'Quintessential Regular';
 text-fill: #421;
 text-halo-fill: @land;
-text-halo-radius: 3;
+text-halo-radius: 2;
 text-size:14;
 [zoom<=6] {
 [scalerank>=0][scalerank<=1] { text-size: 22; }

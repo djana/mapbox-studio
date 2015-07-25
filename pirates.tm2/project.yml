@@ -10,11 +10,11 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 3.8232
-  - 49.6676
-  - 5
+  - 170.0024
+  - -41.3603
+  - 6
 description: ''
-format: "png8:m=h"
+format: png24
 interactivity_layer: ''
 layers: null
 maxzoom: 22

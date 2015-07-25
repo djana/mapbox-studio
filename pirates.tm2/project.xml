@@ -5,8 +5,8 @@
 <Parameters>
   <Parameter name="attribution"><![CDATA[<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>]]></Parameter>
   <Parameter name="bounds">-180,-85.0511,180,85.0511</Parameter>
-  <Parameter name="center">3.8232,49.6676,5</Parameter>
-  <Parameter name="format">png8:m=h</Parameter>
+  <Parameter name="center">170.0024,-41.3603,6</Parameter>
+  <Parameter name="format">png24</Parameter>
   <Parameter name="maxzoom">22</Parameter>
   <Parameter name="minzoom">0</Parameter>
   <Parameter name="source"><![CDATA[mapbox:///mapbox.mapbox-streets-v5]]></Parameter>
@@ -1324,254 +1324,254 @@
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="18" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 2) and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="34" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="34" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="30" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="30" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 0) and ([scalerank] &lt;= 1)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="32" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="30" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="30" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="24" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>6500000</MaxScaleDenominator>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="18" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="18" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>6500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &gt;= 4)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city') and ([scalerank] &lt;= 3)</Filter>
-    <TextSymbolizer face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" size="14" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" size="14" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>50000</MaxScaleDenominator>
     <MinScaleDenominator>25000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="40" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>100000</MaxScaleDenominator>
     <MinScaleDenominator>50000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="36" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>200000</MaxScaleDenominator>
     <MinScaleDenominator>100000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="28" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>400000</MaxScaleDenominator>
     <MinScaleDenominator>200000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="26" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>750000</MaxScaleDenominator>
     <MinScaleDenominator>400000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="22" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>1500000</MaxScaleDenominator>
     <MinScaleDenominator>750000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="20" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>3000000</MaxScaleDenominator>
     <MinScaleDenominator>1500000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer size="16" face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MinScaleDenominator>3000000</MinScaleDenominator>
     <Filter>([type] = 'city')</Filter>
-    <TextSymbolizer face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="3" size="14" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
+    <TextSymbolizer face-name="Quintessential Regular" fill="#442211" halo-fill="#fff8f0" halo-radius="2" size="14" ><![CDATA[[name_en].replace('([Aa]r)','\1rr')]]></TextSymbolizer>
   </Rule>
   <Rule>
     <MaxScaleDenominator>5000</MaxScaleDenominator>
